@@ -122,7 +122,9 @@ header .links ul {
     z-index: 1;
 }
 
-header .links:hover ul { display: block; }
+header .links .icon.open + ul {
+    display: block;
+}
 
 header .links ul:before {
     content: "";
